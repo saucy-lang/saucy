@@ -3,8 +3,8 @@ package dfa
 import (
 	"testing"
 
-	"github.com/timtadh/data-structures/test"
-	"github.com/timtadh/lexmachine/frontend"
+	"github.com/saucy-lang/saucy/data-structures/test"
+	"github.com/saucy-lang/saucy/lexmachine/frontend"
 )
 
 func mustParse(regex string) frontend.AST {

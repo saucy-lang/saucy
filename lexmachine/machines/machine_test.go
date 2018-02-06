@@ -1,7 +1,7 @@
 package machines
 
 import "testing"
-import "github.com/timtadh/lexmachine/inst"
+import "github.com/saucy-lang/saucy/lexmachine/inst"
 
 func TestLexerMatch(t *testing.T) {
 	text := []byte("ababcbcbb")

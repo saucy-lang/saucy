@@ -5,8 +5,8 @@ import (
 	"strconv"
 	"testing"
 
-	"github.com/timtadh/data-structures/test"
-	"github.com/timtadh/lexmachine/machines"
+	"github.com/saucy-lang/saucy/data-structures/test"
+	"github.com/saucy-lang/saucy/lexmachine/machines"
 )
 
 func TestSimple(x *testing.T) {

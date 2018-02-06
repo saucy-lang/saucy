@@ -7,8 +7,8 @@ import (
 )
 
 import (
-	"github.com/timtadh/lexmachine/inst"
-	"github.com/timtadh/lexmachine/queue"
+	"github.com/saucy-lang/saucy/lexmachine/inst"
+	"github.com/saucy-lang/saucy/lexmachine/queue"
 )
 
 // UnconsumedInput error type

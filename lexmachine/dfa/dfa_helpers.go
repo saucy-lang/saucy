@@ -3,7 +3,7 @@ package dfa
 import (
 	"fmt"
 
-	"github.com/timtadh/lexmachine/frontend"
+	"github.com/saucy-lang/saucy/lexmachine/frontend"
 )
 
 // LabeledAST is a post-order labeled version of the AST. The root the node will be Order[len(Order)-1].

@@ -1,7 +1,7 @@
 package frontend
 
 import "testing"
-import "github.com/timtadh/data-structures/test"
+import "github.com/saucy-lang/saucy/data-structures/test"
 
 func TestDesugarRanges_any(x *testing.T) {
 	t := (*test.T)(x)

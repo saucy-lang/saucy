@@ -5,7 +5,7 @@ import (
 )
 
 import (
-	"github.com/timtadh/lexmachine/inst"
+	"github.com/saucy-lang/saucy/lexmachine/inst"
 )
 
 type generator struct {

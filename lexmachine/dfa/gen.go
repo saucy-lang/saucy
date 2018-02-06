@@ -6,12 +6,12 @@ import (
 	"strconv"
 	"strings"
 
-	"github.com/timtadh/data-structures/hashtable"
-	"github.com/timtadh/data-structures/linked"
-	"github.com/timtadh/data-structures/set"
-	"github.com/timtadh/data-structures/types"
-	"github.com/timtadh/lexmachine/frontend"
-	"github.com/timtadh/lexmachine/machines"
+	"github.com/saucy-lang/saucy/data-structures/hashtable"
+	"github.com/saucy-lang/saucy/data-structures/linked"
+	"github.com/saucy-lang/saucy/data-structures/set"
+	"github.com/saucy-lang/saucy/data-structures/types"
+	"github.com/saucy-lang/saucy/lexmachine/frontend"
+	"github.com/saucy-lang/saucy/lexmachine/machines"
 )
 
 // DFA is a Deterministic Finite-state Automaton

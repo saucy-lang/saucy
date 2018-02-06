@@ -6,10 +6,10 @@ import (
 )
 
 import (
-	dfapkg "github.com/timtadh/lexmachine/dfa"
-	"github.com/timtadh/lexmachine/frontend"
-	"github.com/timtadh/lexmachine/inst"
-	"github.com/timtadh/lexmachine/machines"
+	dfapkg "github.com/saucy-lang/saucy/lexmachine/dfa"
+	"github.com/saucy-lang/saucy/lexmachine/frontend"
+	"github.com/saucy-lang/saucy/lexmachine/inst"
+	"github.com/saucy-lang/saucy/lexmachine/machines"
 )
 
 // Token is an optional token representation you could use to represent the

@@ -1,11 +1,11 @@
 package frontend
 
 import "testing"
-import "github.com/timtadh/data-structures/test"
+import "github.com/saucy-lang/saucy/data-structures/test"
 
 import (
-	"github.com/timtadh/lexmachine/inst"
-	"github.com/timtadh/lexmachine/machines"
+	"github.com/saucy-lang/saucy/lexmachine/inst"
+	"github.com/saucy-lang/saucy/lexmachine/machines"
 )
 
 func TestParse(x *testing.T) {
