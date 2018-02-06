@@ -13,8 +13,8 @@ const (
 
 	help = `=====================================================
  saucy - The Saucy Programming Language Interpreter
- Copyright 2018 The Saucy Authors
- MIT License
+ Copyright 2018 Christopher Simpkins
+ Apache License, Version 2.0
 
  Source: https://github.com/saucy-lang/saucy
 =====================================================
