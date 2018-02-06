@@ -1,10 +1,10 @@
 package linked
 
 import (
-	"github.com/timtadh/data-structures/hashtable"
-	"github.com/timtadh/data-structures/list"
-	"github.com/timtadh/data-structures/set"
-	"github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/hashtable"
+	"github.com/saucy-lang/saucy/data-structures/list"
+	"github.com/saucy-lang/saucy/data-structures/set"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 type UniqueDeque struct {

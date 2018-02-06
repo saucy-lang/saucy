@@ -3,8 +3,8 @@ package avl
 import "testing"
 
 import (
-	"github.com/timtadh/data-structures/tree"
-	"github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/tree"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 func TestTraversals(t *testing.T) {

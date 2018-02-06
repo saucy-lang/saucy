@@ -7,8 +7,8 @@ import (
 )
 
 import (
-	"github.com/timtadh/data-structures/hashtable"
-	"github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/hashtable"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 func TestNewSetMap(t *testing.T) {

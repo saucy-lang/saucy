@@ -1,9 +1,9 @@
 package heap
 
 import (
-	"github.com/timtadh/data-structures/hashtable"
-	"github.com/timtadh/data-structures/set"
-	"github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/hashtable"
+	"github.com/saucy-lang/saucy/data-structures/set"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 // This priority queue only allows unique entries. Internally this is

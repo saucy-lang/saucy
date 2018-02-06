@@ -1,7 +1,7 @@
 package bptree
 
 import (
-	"github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 /* A BpTree is a B+Tree with support for duplicate keys. This makes it behave as

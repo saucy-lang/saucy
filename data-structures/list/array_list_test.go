@@ -11,8 +11,8 @@ import (
 )
 
 import (
-	trand "github.com/timtadh/data-structures/rand"
-	"github.com/timtadh/data-structures/types"
+	trand "github.com/saucy-lang/saucy/data-structures/rand"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 var rand *mrand.Rand

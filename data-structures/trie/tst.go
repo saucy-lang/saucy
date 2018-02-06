@@ -6,9 +6,9 @@ import (
 )
 
 import (
-	"github.com/timtadh/data-structures/errors"
-	"github.com/timtadh/data-structures/tree"
-	. "github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/errors"
+	"github.com/saucy-lang/saucy/data-structures/tree"
+	. "github.com/saucy-lang/saucy/data-structures/types"
 )
 
 type TST struct {

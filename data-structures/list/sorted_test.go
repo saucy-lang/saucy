@@ -7,7 +7,7 @@ import (
 )
 
 import (
-	"github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 func TestSortedAddMarshalUnmarshalGet(x *testing.T) {

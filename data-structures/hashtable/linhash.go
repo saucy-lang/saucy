@@ -1,8 +1,8 @@
 package hashtable
 
 import (
-	"github.com/timtadh/data-structures/tree/avl"
-	. "github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/tree/avl"
+	. "github.com/saucy-lang/saucy/data-structures/types"
 )
 
 const (

@@ -10,9 +10,9 @@ import (
 	"encoding/binary"
 	mrand "math/rand"
 
-	trand "github.com/timtadh/data-structures/rand"
-	"github.com/timtadh/data-structures/test"
-	"github.com/timtadh/data-structures/types"
+	trand "github.com/saucy-lang/saucy/data-structures/rand"
+	"github.com/saucy-lang/saucy/data-structures/test"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 var rand *mrand.Rand

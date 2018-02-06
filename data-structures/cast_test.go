@@ -2,13 +2,13 @@ package data_structures
 
 import "testing"
 import (
-	"github.com/timtadh/data-structures/hashtable"
-	"github.com/timtadh/data-structures/list"
-	"github.com/timtadh/data-structures/set"
-	"github.com/timtadh/data-structures/tree/avl"
-	"github.com/timtadh/data-structures/tree/bptree"
-	"github.com/timtadh/data-structures/trie"
-	"github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/hashtable"
+	"github.com/saucy-lang/saucy/data-structures/list"
+	"github.com/saucy-lang/saucy/data-structures/set"
+	"github.com/saucy-lang/saucy/data-structures/tree/avl"
+	"github.com/saucy-lang/saucy/data-structures/tree/bptree"
+	"github.com/saucy-lang/saucy/data-structures/trie"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 func TestAvlTreeCast(t *testing.T) {

@@ -1,8 +1,8 @@
 package set
 
 import (
-	"github.com/timtadh/data-structures/hashtable"
-	"github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/hashtable"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 func newSetBestType(a types.Set, sizeHint int) types.Set {

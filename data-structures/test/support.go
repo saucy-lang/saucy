@@ -9,7 +9,7 @@ import (
 	"encoding/hex"
 	mrand "math/rand"
 
-	trand "github.com/timtadh/data-structures/rand"
+	trand "github.com/saucy-lang/saucy/data-structures/rand"
 )
 
 var rand *mrand.Rand

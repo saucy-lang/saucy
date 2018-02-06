@@ -1,7 +1,7 @@
 package tree
 
 import (
-	"github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 func pop(stack []types.TreeNode) ([]types.TreeNode, types.TreeNode) {

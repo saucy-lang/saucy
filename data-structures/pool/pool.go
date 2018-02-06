@@ -6,7 +6,7 @@ import (
 )
 
 import (
-	"github.com/timtadh/data-structures/errors"
+	"github.com/saucy-lang/saucy/data-structures/errors"
 )
 
 type Pool struct {

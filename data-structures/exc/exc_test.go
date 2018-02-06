@@ -2,7 +2,7 @@ package exc
 
 import "testing"
 
-import "github.com/timtadh/data-structures/test"
+import "github.com/saucy-lang/saucy/data-structures/test"
 
 import (
 	"io"

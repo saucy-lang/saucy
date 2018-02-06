@@ -1,7 +1,7 @@
 package hashtable
 
-import . "github.com/timtadh/data-structures/types"
-import . "github.com/timtadh/data-structures/errors"
+import . "github.com/saucy-lang/saucy/data-structures/types"
+import . "github.com/saucy-lang/saucy/data-structures/errors"
 
 type entry struct {
 	key   Hashable

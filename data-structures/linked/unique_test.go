@@ -3,7 +3,7 @@ package linked
 import "testing"
 
 import (
-	"github.com/timtadh/data-structures/list"
+	"github.com/saucy-lang/saucy/data-structures/list"
 )
 
 func TestUniquePushPopSize(t *testing.T) {

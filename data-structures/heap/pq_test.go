@@ -3,7 +3,7 @@ package heap
 import "testing"
 
 import (
-	"github.com/timtadh/data-structures/test"
+	"github.com/saucy-lang/saucy/data-structures/test"
 )
 
 func heap1(min bool) *Heap {

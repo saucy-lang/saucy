@@ -3,8 +3,8 @@ package heap
 import "testing"
 
 import (
-	"github.com/timtadh/data-structures/test"
-	"github.com/timtadh/data-structures/types"
+	"github.com/saucy-lang/saucy/data-structures/test"
+	"github.com/saucy-lang/saucy/data-structures/types"
 )
 
 func TestUniquePushMax(x *testing.T) {
