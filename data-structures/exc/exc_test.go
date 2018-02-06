@@ -7,6 +7,7 @@ import "github.com/saucy-lang/saucy/data-structures/test"
 import (
 	"io"
 	"os"
+	"io/ioutil"
 )
 
 type myException struct {
@@ -138,7 +139,8 @@ func TestCloser(x *testing.T) {
 	var f *os.File = nil
 	Close(func() io.Closer {
 		var err error
-		f, err = os.Create("/tmp/wizard")
+		tempfile, _ := ioutil.TempFile(os.TempDir(), "saucytests")
+		f, err = os.Create(tempfile.Name())
 		ThrowOnError(err)
 		return f
 	}, func(c io.Closer) {
@@ -155,7 +157,8 @@ func TestCloserError(x *testing.T) {
 	var f *os.File = nil
 	e := Close(func() io.Closer {
 		var err error
-		f, err = os.Create("/tmp/wizard")
+		tempfile, _ := ioutil.TempFile(os.TempDir(), "saucytests")
+		f, err = os.Create(tempfile.Name())
 		ThrowOnError(err)
 		return f
 	}, func(c io.Closer) {
