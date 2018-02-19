@@ -4,6 +4,10 @@ import (
 	"flag"
 	"fmt"
 	"os"
+
+	"github.com/antlr/antlr4/runtime/Go/antlr"
+
+	"github.com/saucy-lang/saucy/parser"
 )
 
 const (
@@ -38,6 +42,18 @@ func init() {
 	usageLong = flag.Bool("usage", false, "Interpreter Usage")
 }
 
+type TreeShapeListener struct {
+	*parser.BaseSaucyListener
+}
+
+func NewTreeShapeListener() *TreeShapeListener {
+	return new(TreeShapeListener)
+}
+
+func (this *TreeShapeListener) EnterEveryRule(ctx antlr.ParserRuleContext) {
+	fmt.Println(ctx.GetText())
+}
+
 func main() {
 	flag.Parse()
 
@@ -53,4 +69,15 @@ func main() {
 		fmt.Println(usage)
 		os.Exit(0)
 	}
+
+	sourceFile := flag.Args()[0]
+
+	input, _ := antlr.NewFileStream(sourceFile)
+	lexer := parser.NewSaucyLexer(input)
+	stream := antlr.NewCommonTokenStream(lexer, antlr.TokenDefaultChannel)
+	p := parser.NewSaucyParser(stream)
+	p.AddErrorListener(antlr.NewDiagnosticErrorListener(true))
+	p.BuildParseTrees = true
+	tree := p.File_input()
+	antlr.ParseTreeWalkerDefault.Walk(NewTreeShapeListener(), tree)
 }
