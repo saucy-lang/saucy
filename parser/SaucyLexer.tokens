@@ -1,0 +1,9 @@
+T__0=1
+T__1=2
+IMPORT=3
+NAME=4
+NEWLINE=5
+SKIP_=6
+';'=1
+'.'=2
+'import'=3
