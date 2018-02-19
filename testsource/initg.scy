@@ -1,0 +1,11 @@
+#!/usr/local/bin saucy
+
+import testing.false.helper
+
+// This is an inline comment
+
+/*
+
+And this is a block comment
+
+*/
