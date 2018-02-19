@@ -3,6 +3,7 @@
 *.dll
 *.so
 *.dylib
+saucy
 
 # Test binary, build with `go test -c`
 *.test
